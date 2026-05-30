@@ -4,3 +4,4 @@ rps.zip*.pth
 ResNet/rdata/
 ResNet/cifar100data/
 ResNet/models/
+VLM/dataset/original_video/*.mp4
