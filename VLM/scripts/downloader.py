@@ -46,11 +46,11 @@ def write_list_to_file(file_path, input_list):
 if __name__ == '__main__':
     output_path = './dataset/original_video'
     video_ids = [
-    "0B4x_mHgVN4",   # inject medication
-    "HxT7E14euZ8",   # inject medication
-    "YLMPAtkg-Kk",   # subcutaneous puncture
-    "F88btEbzdw0",   # cleanse skin
-    "SClSnPYIay0",   # inject medication
+    "o79esR_TQxk",  
+    "-1mH9wYWd5w",   
+    "Peyw-eKZJOI",   
+    "Q9daM1wqPxs",  
+    "oRSDFuBCia0",   
 ]
 
     failed_videos = download_videos(video_ids, output_path)
