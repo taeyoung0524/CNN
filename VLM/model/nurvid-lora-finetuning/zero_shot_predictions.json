@@ -1,157 +1,177 @@
 [
   {
-    "image_name": "electrocardiogram_Lojv2N_bz_M_ann2.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A woman is standing beside a bed, she is holding a mannequin, and there is a machine in the background."
-  },
-  {
-    "image_name": "electrocardiogram_Lta0GbIKCZA_ann3.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "In this image, we can see a person lying on the bed and a person is holding a rope and a person is tied to the bed. In the background, we can see a wall, a door, a bottle, a box, a wall, a person, a person's hand, a person's head,"
-  },
-  {
-    "image_name": "electrocardiogram_QbCDXXlGDdI_ann2.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "In this image, we can see a person wearing clothes and blue color stickers on his body."
-  },
-  {
-    "image_name": "electrocardiogram_To-KPRqE0_w_ann4.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "In this image, we can see a person lying on the bed and a person is holding a bottle in their hand and a person is holding a syringe in their hand."
-  },
-  {
-    "image_name": "electrocardiogram_uRlAUI2l3dA_ann3.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A person is lying on a bed with wires connected to his body."
-  },
-  {
-    "image_name": "intramuscular_injection_D47KVB-oT98_ann3.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A woman is being treated in a hospital."
-  },
-  {
-    "image_name": "intramuscular_injection_D47KVB-oT98_ann5.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A woman is having her hair tied up."
-  },
-  {
-    "image_name": "intramuscular_injection_EJ4_zTzzNbY_ann2.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "Person is lying on the floor and having a wound on his leg."
-  },
-  {
-    "image_name": "intramuscular_injection_HknJP1qf-_0_ann2.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A person is injecting a syringe with a needle."
-  },
-  {
-    "image_name": "intramuscular_injection_HknJP1qf-_0_ann4.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A person is getting injection with a syringe."
-  },
-  {
-    "image_name": "intramuscular_injection_I0TjUM8qYVs_ann4.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A person is injecting a child with a syringe."
-  },
-  {
-    "image_name": "intramuscular_injection_feVH2esO1FI_ann2.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "In this image, we can see a person's hand holding a syringe with a needle."
-  },
-  {
-    "image_name": "oxygen_therapy_Nc2zl2SeQNo_ann1.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A man is sitting on a chair and a woman is standing beside him and talking."
-  },
-  {
-    "image_name": "oxygen_therapy_Nc2zl2SeQNo_ann2.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "Here a person is holding a white object and a white object is measuring a person."
-  },
-  {
-    "image_name": "oxygen_therapy_Nc2zl2SeQNo_ann3.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A woman is standing and talking to a man."
-  },
-  {
-    "image_name": "oxygen_therapy_afFMH2lgH-U_ann1.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "Person is working on a bottle with a measuring scale."
-  },
-  {
-    "image_name": "oxygen_therapy_afFMH2lgH-U_ann2.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "In this image, we can see a person in the bed and a woman in the bed. We can also see a ventilator, a monitor, a wall, a switch board, a curtain, a table, a bottle, a bag, a pillow, a wall, a curtain, a table, a machine,"
-  },
-  {
-    "image_name": "subcutaneous_injection_25DJ1kvaN60_ann1.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "Two women in blue color uniforms are putting on a band on their abdomen."
-  },
-  {
     "image_name": "subcutaneous_injection_25DJ1kvaN60_ann2.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "gt_caption": "A nurse administering a subcutaneous injection into the abdominal area of a patient in a clinical setting",
     "zero_shot_prediction": "Two women in blue uniforms are preparing to give birth."
   },
   {
     "image_name": "subcutaneous_injection_25DJ1kvaN60_ann3.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "gt_caption": "A nurse preparing a syringe for a subcutaneous injection in a clinical setting",
     "zero_shot_prediction": "Two women in blue uniforms are giving a medical test to a patient."
   },
   {
     "image_name": "subcutaneous_injection_25DJ1kvaN60_ann4.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "gt_caption": "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting",
     "zero_shot_prediction": "Two women in green uniforms are holding something in their hands."
   },
   {
-    "image_name": "subcutaneous_injection_6BnxXcUxcBs_ann1.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A man is stitching his pants."
+    "image_name": "subcutaneous_injection_968cu9kFRPM_ann1.jpg",
+    "gt_caption": "A nurse drawing medication into a syringe for a subcutaneous injection in a hospital ward",
+    "zero_shot_prediction": "A person is holding a paper with some text on it."
   },
   {
-    "image_name": "subcutaneous_injection_6ydbP1_C8rk_ann3.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A person is having a tattoo on the leg."
-  },
-  {
-    "image_name": "subcutaneous_injection_6ydbP1_C8rk_ann4.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A person is having a medical procedure with gloves and a cloth."
-  },
-  {
-    "image_name": "subcutaneous_injection_6ydbP1_C8rk_ann7.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "A person is injecting a syringe with a needle."
+    "image_name": "subcutaneous_injection_968cu9kFRPM_ann3.jpg",
+    "gt_caption": "A nurse preparing medication in a syringe for a subcutaneous injection in a hospital ward",
+    "zero_shot_prediction": "A person is using a syringe to give a patient a medicine."
   },
   {
     "image_name": "subcutaneous_injection_968cu9kFRPM_ann5.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "gt_caption": "A nurse preparing a syringe for a subcutaneous injection in a clinical setting",
     "zero_shot_prediction": "In this image there is a person standing and holding a knife in his hand and there is a white background."
   },
   {
     "image_name": "subcutaneous_injection_Ba55wzNxM2w_ann2.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "gt_caption": "A nurse administering a subcutaneous injection into the abdominal area of a patient in a hospital ward",
     "zero_shot_prediction": "A person is holding an object in their hand and applying something to their stomach."
   },
   {
     "image_name": "subcutaneous_injection_Ba55wzNxM2w_ann3.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "gt_caption": "A nurse administering a subcutaneous injection into the abdominal area of a patient in a hospital ward",
     "zero_shot_prediction": "A person is applying a syringe to his abdomen."
   },
   {
+    "image_name": "subcutaneous_injection_bFrFHy_JEDk_ann4.jpg",
+    "gt_caption": "A nurse administering an intramuscular injection into the deltoid area of a patient in a clinical setting",
+    "zero_shot_prediction": "Person wiping his hand on table."
+  },
+  {
     "image_name": "subcutaneous_injection_bFrFHy_JEDk_ann2.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "gt_caption": "A nurse preparing to administer an injection into the upper arm of a patient in a clinical setting",
     "zero_shot_prediction": "Two people are sitting in a room."
   },
   {
     "image_name": "subcutaneous_injection_bFrFHy_JEDk_ann3.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "gt_caption": "A nurse preparing to administer an intramuscular injection into the deltoid area of a patient in a clinical setting",
     "zero_shot_prediction": "A person is wearing blue gloves and holding a glass in his hand."
   },
   {
-    "image_name": "subcutaneous_injection_bFrFHy_JEDk_ann4.jpg",
-    "gt_caption": "A nurse performing a medical action in a hospital setting.",
-    "zero_shot_prediction": "Person wiping his hand on table."
+    "image_name": "electrocardiogram_uRlAUI2l3dA_ann3.jpg",
+    "gt_caption": "A nurse attaching ECG electrodes to a patient's chest for electrocardiogram monitoring in a hospital ward",
+    "zero_shot_prediction": "A person is lying on a bed with wires connected to his body."
+  },
+  {
+    "image_name": "intramuscular_injection_D47KVB-oT98_ann3.jpg",
+    "gt_caption": "A nurse preparing to administer an intramuscular injection into the gluteal area of a patient in a hospital ward",
+    "zero_shot_prediction": "A woman is being treated in a hospital."
+  },
+  {
+    "image_name": "intramuscular_injection_D47KVB-oT98_ann5.jpg",
+    "gt_caption": "A nurse administering an intramuscular injection into the gluteal area of a patient in a hospital ward",
+    "zero_shot_prediction": "A woman is having her hair tied up."
+  },
+  {
+    "image_name": "intramuscular_injection_EJ4_zTzzNbY_ann1.jpg",
+    "gt_caption": "A nurse marking the injection site for an intramuscular injection on a patient in a clinical setting",
+    "zero_shot_prediction": "In this image, we can see a person wearing blue jeans and gloves."
+  },
+  {
+    "image_name": "intramuscular_injection_EJ4_zTzzNbY_ann2.jpg",
+    "gt_caption": "A nurse cleaning the injection site before administering an intramuscular injection in a clinical setting",
+    "zero_shot_prediction": "Person is lying on the floor and having a wound on his leg."
+  },
+  {
+    "image_name": "intramuscular_injection_feVH2esO1FI_ann2.jpg",
+    "gt_caption": "A nurse practicing an intramuscular injection technique on a medical mannequin in a hospital setting",
+    "zero_shot_prediction": "In this image, we can see a person's hand holding a syringe with a needle."
+  },
+  {
+    "image_name": "intramuscular_injection_HknJP1qf-_0_ann2.jpg",
+    "gt_caption": "A nurse assembling a syringe and needle for an injection in a clinical setting",
+    "zero_shot_prediction": "A person is injecting a syringe with a needle."
+  },
+  {
+    "image_name": "intramuscular_injection_HknJP1qf-_0_ann4.jpg",
+    "gt_caption": "A nurse administering an injection into the abdominal area of a patient in a clinical setting",
+    "zero_shot_prediction": "A person is getting injection with a syringe."
+  },
+  {
+    "image_name": "intramuscular_injection_I0TjUM8qYVs_ann4.jpg",
+    "gt_caption": "A nurse administering an intramuscular injection into the gluteal area of a patient in a hospital ward",
+    "zero_shot_prediction": "A person is injecting a child with a syringe."
+  },
+  {
+    "image_name": "oxygen_therapy_afFMH2lgH-U_ann1.jpg",
+    "gt_caption": "A nurse connecting an oxygen flow meter to an oxygen cylinder in a hospital setting",
+    "zero_shot_prediction": "Person is working on a bottle with a measuring scale."
+  },
+  {
+    "image_name": "oxygen_therapy_afFMH2lgH-U_ann2.jpg",
+    "gt_caption": "A nurse setting up oxygen therapy equipment for a patient in a hospital room",
+    "zero_shot_prediction": "In this image, we can see a person in the bed and a woman in the bed. We can also see a ventilator, a monitor, a wall, a switch board, a curtain, a table, a bottle, a bag, a pillow, a wall, a curtain, a table, a machine,"
+  },
+  {
+    "image_name": "oxygen_therapy_Nc2zl2SeQNo_ann1.jpg",
+    "gt_caption": "A nurse applying a nasal cannula to a patient for oxygen therapy in a hospital setting",
+    "zero_shot_prediction": "A man is sitting on a chair and a woman is standing beside him and talking."
+  },
+  {
+    "image_name": "oxygen_therapy_Nc2zl2SeQNo_ann2.jpg",
+    "gt_caption": "A nurse adjusting the oxygen flow meter valve for oxygen therapy in a hospital setting",
+    "zero_shot_prediction": "Here a person is holding a white object and a white object is measuring a person."
+  },
+  {
+    "image_name": "oxygen_therapy_Nc2zl2SeQNo_ann3.jpg",
+    "gt_caption": "A nurse applying an oxygen mask to a patient for oxygen therapy in a hospital ward",
+    "zero_shot_prediction": "A woman is standing and talking to a man."
+  },
+  {
+    "image_name": "subcutaneous_injection_6ydbP1_C8rk_ann3.jpg",
+    "gt_caption": "A nurse disinfecting the injection site before administering a subcutaneous injection in a hospital ward",
+    "zero_shot_prediction": "A person is having a tattoo on the leg."
+  },
+  {
+    "image_name": "subcutaneous_injection_6ydbP1_C8rk_ann4.jpg",
+    "gt_caption": "A nurse inserting a needle for a subcutaneous injection into a patient's skin in a hospital ward",
+    "zero_shot_prediction": "A person is having a medical procedure with gloves and a cloth."
+  },
+  {
+    "image_name": "subcutaneous_injection_6ydbP1_C8rk_ann5.jpg",
+    "gt_caption": "A nurse administering a subcutaneous injection into the abdominal area of a patient in a hospital ward",
+    "zero_shot_prediction": "A person is injecting a syringe with a needle."
+  },
+  {
+    "image_name": "subcutaneous_injection_6ydbP1_C8rk_ann7.jpg",
+    "gt_caption": "A nurse drawing medication into a syringe for a subcutaneous injection in a hospital ward",
+    "zero_shot_prediction": "A person is injecting a syringe with a needle."
+  },
+  {
+    "image_name": "subcutaneous_injection_25DJ1kvaN60_ann1.jpg",
+    "gt_caption": "A nurse preparing a syringe for a subcutaneous injection in a clinical setting",
+    "zero_shot_prediction": "Two women in blue color uniforms are putting on a band on their abdomen."
+  },
+  {
+    "image_name": "electrocardiogram_Lojv2N_bz_M_ann2.jpg",
+    "gt_caption": "A nurse attaching ECG electrodes to a patient's chest for electrocardiogram monitoring in a hospital ward",
+    "zero_shot_prediction": "A woman is standing beside a bed, she is holding a mannequin, and there is a machine in the background."
+  },
+  {
+    "image_name": "electrocardiogram_Lta0GbIKCZA_ann3.jpg",
+    "gt_caption": "A nurse performing an electrocardiogram by placing electrodes on a patient in a hospital setting",
+    "zero_shot_prediction": "In this image, we can see a person lying on the bed and a person is holding a rope and a person is tied to the bed. In the background, we can see a wall, a door, a bottle, a box, a wall, a person, a person's hand, a person's head,"
+  },
+  {
+    "image_name": "electrocardiogram_QbCDXXlGDdI_ann2.jpg",
+    "gt_caption": "A nurse placing ECG electrodes on a patient's chest for electrocardiogram monitoring in a hospital ward",
+    "zero_shot_prediction": "In this image, we can see a person wearing clothes and blue color stickers on his body."
+  },
+  {
+    "image_name": "electrocardiogram_To-KPRqE0_w_ann4.jpg",
+    "gt_caption": "A nurse conducting an electrocardiogram by attaching electrodes to a patient in a hospital setting",
+    "zero_shot_prediction": "In this image, we can see a person lying on the bed and a person is holding a bottle in their hand and a person is holding a syringe in their hand."
+  },
+  {
+    "image_name": "subcutaneous_injection_6BnxXcUxcBs_ann1.jpg",
+    "gt_caption": "A person self-administering a subcutaneous injection into the abdominal area in a clinical setting",
+    "zero_shot_prediction": "A man is stitching his pants."
   }
 ]
