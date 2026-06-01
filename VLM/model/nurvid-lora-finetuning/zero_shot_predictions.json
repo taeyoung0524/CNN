@@ -1,0 +1,37 @@
+[
+  {
+    "image_name": "F88btEbzdw0_op5_action8_1_16.53_33.90_middle.jpg",
+    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "zero_shot_prediction": "This image consists of two persons, one of them is holding a syringe in his hand and the other one is holding a"
+  },
+  {
+    "image_name": "Peyw-eKZJOI_op26_action34_3_179.18_189.29_middle.jpg",
+    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "zero_shot_prediction": "A woman is lying on the bed and holding a bowl with her hands."
+  },
+  {
+    "image_name": "Peyw-eKZJOI_op26_action41_2_157.40_173.20_middle.jpg",
+    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "zero_shot_prediction": "In this image, we can see a person lying on the bed and a person is standing beside the bed. We can"
+  },
+  {
+    "image_name": "Peyw-eKZJOI_op26_action59_1_134.86_147.56_middle.jpg",
+    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "zero_shot_prediction": "A woman is lying on a bed with a bowl in her hand."
+  },
+  {
+    "image_name": "bed_shampoo_01.jpg",
+    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "zero_shot_prediction": "A person is being taken out of the water bath."
+  },
+  {
+    "image_name": "injection_01.jpg",
+    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "zero_shot_prediction": "In this image, there are two hands of a person wearing gloves. In the background, there is a table. On"
+  },
+  {
+    "image_name": "oRSDFuBCia0_op43_action8_1_11.52_24.74_middle.jpg",
+    "gt_caption": "A nurse performing a medical action in a hospital setting.",
+    "zero_shot_prediction": "In this image there are two hands, one hand is holding a syringe, another hand is holding a finger, there is"
+  }
+]

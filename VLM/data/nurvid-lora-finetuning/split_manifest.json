@@ -1,0 +1,28 @@
+{
+  "train": [
+    "F88btEbzdw0_op5_action8_1_16.53_33.90_middle.jpg",
+    "Peyw-eKZJOI_op26_action34_3_179.18_189.29_middle.jpg",
+    "Peyw-eKZJOI_op26_action41_2_157.40_173.20_middle.jpg",
+    "Peyw-eKZJOI_op26_action59_1_134.86_147.56_middle.jpg",
+    "bed_shampoo_01.jpg"
+  ],
+  "val": [
+    "injection_01.jpg",
+    "oRSDFuBCia0_op43_action8_1_11.52_24.74_middle.jpg"
+  ],
+  "metric": [
+    "F88btEbzdw0_op5_action8_1_16.53_33.90_middle.jpg",
+    "Peyw-eKZJOI_op26_action34_3_179.18_189.29_middle.jpg",
+    "Peyw-eKZJOI_op26_action41_2_157.40_173.20_middle.jpg",
+    "Peyw-eKZJOI_op26_action59_1_134.86_147.56_middle.jpg",
+    "bed_shampoo_01.jpg",
+    "injection_01.jpg",
+    "oRSDFuBCia0_op43_action8_1_11.52_24.74_middle.jpg"
+  ],
+  "comparison": [
+    "F88btEbzdw0_op5_action8_1_16.53_33.90_middle.jpg",
+    "Peyw-eKZJOI_op26_action34_3_179.18_189.29_middle.jpg",
+    "Peyw-eKZJOI_op26_action41_2_157.40_173.20_middle.jpg",
+    "Peyw-eKZJOI_op26_action59_1_134.86_147.56_middle.jpg"
+  ]
+}

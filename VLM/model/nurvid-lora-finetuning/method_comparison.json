@@ -1,0 +1,130 @@
+{
+  "zero_shot_caption_scores": {
+    "bleu": 0.0,
+    "meteor": 0.14469038105535997,
+    "cider_d": 0.0
+  },
+  "lora_results": [
+    {
+      "summary": {
+        "rank": 4,
+        "lora_alpha": 8,
+        "trainable_params": 377856,
+        "total_params": 256862784,
+        "full_finetuning_trainable_params": 256484928,
+        "trainable_ratio": 0.0014710422199581859,
+        "vs_full_finetuning_ratio": 0.0014732093731449202,
+        "vs_full_finetuning_reduction_factor": 678.7901422764228,
+        "vs_full_finetuning_saved_params": 256107072,
+        "vs_full_finetuning_saved_ratio": 0.9985267906268551,
+        "eval_loss": 4.151023864746094,
+        "caption_scores": {
+          "available": true,
+          "zero_shot": {
+            "bleu": 0.0,
+            "meteor": 0.14469038105535997,
+            "cider_d": 0.0
+          },
+          "fine_tuned": {
+            "bleu": 0.0,
+            "meteor": 0.14469038105535997,
+            "cider_d": 0.0
+          },
+          "delta": {
+            "bleu": 0.0,
+            "meteor": 0.0,
+            "cider_d": 0.0
+          }
+        }
+      },
+      "before_after_report": {
+        "samples": [
+          {
+            "image_name": "F88btEbzdw0_op5_action8_1_16.53_33.90_middle.jpg",
+            "image_path": "dataset/selected_images/F88btEbzdw0_op5_action8_1_16.53_33.90_middle.jpg",
+            "ground_truth": "A nurse performing a medical action in a hospital setting.",
+            "references": [
+              "A nurse performing a medical action in a hospital setting."
+            ],
+            "zero_shot": "This image consists of two persons, one of them is holding a syringe in his hand and the other one is holding a",
+            "fine_tuned": "This image consists of two persons, one of them is holding a syringe in his hand and the other one is holding a"
+          },
+          {
+            "image_name": "Peyw-eKZJOI_op26_action34_3_179.18_189.29_middle.jpg",
+            "image_path": "dataset/selected_images/Peyw-eKZJOI_op26_action34_3_179.18_189.29_middle.jpg",
+            "ground_truth": "A nurse performing a medical action in a hospital setting.",
+            "references": [
+              "A nurse performing a medical action in a hospital setting."
+            ],
+            "zero_shot": "A woman is lying on the bed and holding a bowl with her hands.",
+            "fine_tuned": "A woman is lying on the bed and holding a bowl with her hands."
+          },
+          {
+            "image_name": "Peyw-eKZJOI_op26_action41_2_157.40_173.20_middle.jpg",
+            "image_path": "dataset/selected_images/Peyw-eKZJOI_op26_action41_2_157.40_173.20_middle.jpg",
+            "ground_truth": "A nurse performing a medical action in a hospital setting.",
+            "references": [
+              "A nurse performing a medical action in a hospital setting."
+            ],
+            "zero_shot": "In this image, we can see a person lying on the bed and a person is standing beside the bed. We can",
+            "fine_tuned": "In this image, we can see a person lying on the bed and a person is standing beside the bed. We can"
+          },
+          {
+            "image_name": "Peyw-eKZJOI_op26_action59_1_134.86_147.56_middle.jpg",
+            "image_path": "dataset/selected_images/Peyw-eKZJOI_op26_action59_1_134.86_147.56_middle.jpg",
+            "ground_truth": "A nurse performing a medical action in a hospital setting.",
+            "references": [
+              "A nurse performing a medical action in a hospital setting."
+            ],
+            "zero_shot": "A woman is lying on a bed with a bowl in her hand.",
+            "fine_tuned": "A woman is lying on a bed with a bowl in her hand."
+          }
+        ],
+        "metrics": {
+          "zero_shot": {
+            "bleu": 0.0,
+            "meteor": 0.14469038105535997,
+            "cider_d": 0.0
+          },
+          "fine_tuned": {
+            "bleu": 0.0,
+            "meteor": 0.14469038105535997,
+            "cider_d": 0.0
+          },
+          "delta": {
+            "bleu": 0.0,
+            "meteor": 0.0,
+            "cider_d": 0.0
+          }
+        }
+      },
+      "caption_scores": {
+        "available": true,
+        "zero_shot": {
+          "bleu": 0.0,
+          "meteor": 0.14469038105535997,
+          "cider_d": 0.0
+        },
+        "fine_tuned": {
+          "bleu": 0.0,
+          "meteor": 0.14469038105535997,
+          "cider_d": 0.0
+        },
+        "delta": {
+          "bleu": 0.0,
+          "meteor": 0.0,
+          "cider_d": 0.0
+        }
+      },
+      "eval_metrics": {
+        "eval_loss": 4.151023864746094,
+        "eval_runtime": 5.6769,
+        "eval_samples_per_second": 0.352,
+        "eval_steps_per_second": 0.352,
+        "epoch": 1.0
+      },
+      "full_finetuning_trainable_params": 256484928,
+      "rank_output_dir": "model/nurvid-lora-finetuning/rank-4"
+    }
+  ]
+}

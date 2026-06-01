@@ -1,0 +1,18 @@
+{
+  "available": true,
+  "zero_shot": {
+    "bleu": 0.0,
+    "meteor": 0.14469038105535997,
+    "cider_d": 0.0
+  },
+  "fine_tuned": {
+    "bleu": 0.0,
+    "meteor": 0.14469038105535997,
+    "cider_d": 0.0
+  },
+  "delta": {
+    "bleu": 0.0,
+    "meteor": 0.0,
+    "cider_d": 0.0
+  }
+}

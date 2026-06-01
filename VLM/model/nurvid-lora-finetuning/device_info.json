@@ -1,6 +1,6 @@
 {
   "cuda_available": true,
-  "cuda_device_count": 4,
+  "cuda_device_count": 1,
   "device": "cuda",
   "device_index": 0,
   "device_name": "NVIDIA TITAN Xp"

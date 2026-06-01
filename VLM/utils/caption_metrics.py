@@ -255,8 +255,8 @@ def build_caption_before_after_report(
     return {
         "samples": [
             {
-                "cocoid": int(sample["cocoid"]),
-                "filename": str(sample["filename"]),
+                "image_name": str(sample.get("image_name", sample.get("filename", ""))),
+                "image_path": str(sample.get("image_path", "")),
                 "ground_truth": str(sample["caption"]),
                 "references": [str(sample["caption"])],
                 "zero_shot": zero_shot_predictions[index],
