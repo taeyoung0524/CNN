@@ -1,63 +1,56 @@
-import yt_dlp
 import json
-from tqdm import tqdm
-from concurrent.futures import ThreadPoolExecutor
-import os
+import subprocess
+from pathlib import Path
 
+with open("dataset/NurViD_annotations.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-def download_video(video_id, output_path):
-    ydl_opts = {
-        'outtmpl': os.path.join(output_path, f'%(id)s.%(ext)s'),
-        'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
-        'ignoreerrors': False,
-    }
-    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        try:
-            ydl.download([video_id])
-        except:
-            return video_id
+# 대상 operationID
+target_ops = {6, 20, 45, 36}
 
+# operationID별 최대 다운로드 수
+max_per_op = {
+    6: 10,   # Subcutaneous Injection
+    20: 10,  # Intramuscular Injection
+    45: 8,   # Electrocardiogram (전부)
+    36: 10,  # Oxygen Therapy
+}
 
-def download_videos(video_ids, output_path):
-    os.makedirs(output_path, exist_ok=True)
-    failed_videos = []
-    with ThreadPoolExecutor(max_workers=8) as executor:
-        futures = []
-        for video_id in video_ids:
-            futures.append(executor.submit(download_video, video_id, output_path))
-        for future in tqdm(futures, total=len(futures), desc='Downloading', unit='video'):
-            result = future.result()
-            if result:
-                failed_videos.append(result)
-                file_path = "failed_list.txt"
-                write_list_to_file(file_path, failed_videos)
-    return failed_videos
+output_dir = Path("dataset/videos")
+output_dir.mkdir(parents=True, exist_ok=True)
 
+op_count = {op: 0 for op in target_ops}
 
-def write_list_to_file(file_path, input_list):
-    try:
-        with open(file_path, 'w') as file:
-            for item in input_list:
-                file.write(str(item) + '\n')
-    except Exception as e:
-        print(f"Error occurred: {e}")
+for video_id, info in data.items():
+    op_id = info["operationID"]
+    if op_id not in target_ops:
+        continue
+    if op_count[op_id] >= max_per_op[op_id]:
+        continue
 
+    url = info["url"]
+    out_path = output_dir / f"{video_id}.mp4"
 
-if __name__ == '__main__':
-    output_path = './dataset/original_video'
-    video_ids = [
-    "o79esR_TQxk",  
-    "-1mH9wYWd5w",   
-    "Peyw-eKZJOI",   
-    "Q9daM1wqPxs",  
-    "oRSDFuBCia0",   
-]
+    if out_path.exists():
+        print(f"이미 존재: {video_id}")
+        op_count[op_id] += 1
+        continue
 
-    failed_videos = download_videos(video_ids, output_path)
+    print(f"다운로드 중: {video_id} (op={op_id})")
+    result = subprocess.run([
+        "yt-dlp",
+        "-f", "mp4",
+        "-o", str(out_path),
+        "--quiet",
+        url
+    ])
 
-    if failed_videos:
-        print('Video IDs unable to download:')
-        for video_id in failed_videos:
-            print(video_id)
+    if result.returncode == 0:
+        op_count[op_id] += 1
+        print(f"완료: {video_id} | op={op_id} ({op_count[op_id]}/{max_per_op[op_id]})")
     else:
-        print('All videos downloaded successfully!')
+        print(f"실패: {video_id}")
+
+print("\n최종 다운로드 수:")
+for op_id, count in op_count.items():
+    print(f"  op={op_id}: {count}개")
