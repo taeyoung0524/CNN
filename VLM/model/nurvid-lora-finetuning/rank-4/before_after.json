@@ -18,7 +18,7 @@
         "A nurse preparing a syringe for a subcutaneous injection in a clinical setting"
       ],
       "zero_shot": "Two women in blue uniforms are giving a medical test to a patient.",
-      "fine_tuned": "A nurse in a nurse's uniform preparing to administer a subcutaneous injection into a patient's thigh in a clinical setting"
+      "fine_tuned": "A nurse in a nurse's uniform preparing to administer a subcutaneous injection into a subcutaneous subcutaneous injection site in a clinical setting"
     },
     {
       "image_name": "subcutaneous_injection_25DJ1kvaN60_ann4.jpg",
@@ -28,7 +28,7 @@
         "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting"
       ],
       "zero_shot": "Two women in green uniforms are holding something in their hands.",
-      "fine_tuned": "A nurse preparing a syringe for a medication in a clinical setting"
+      "fine_tuned": "A nurse preparing a syringe for administering an injection into the abdomen of a patient in a clinical setting"
     },
     {
       "image_name": "subcutaneous_injection_968cu9kFRPM_ann1.jpg",
@@ -38,7 +38,7 @@
         "A nurse drawing medication into a syringe for a subcutaneous injection in a hospital ward"
       ],
       "zero_shot": "A person is holding a paper with some text on it.",
-      "fine_tuned": "A nurse using a syringe needle to administer a subcutaneous injection into a patient's thigh"
+      "fine_tuned": "A nurse administering an injection into a patient's arm with a syringe in a hospital setting"
     }
   ],
   "metrics": {
@@ -48,14 +48,14 @@
       "cider_d": 0.023962586154704844
     },
     "fine_tuned": {
-      "bleu": 0.344712123713348,
-      "meteor": 0.5828972366877522,
-      "cider_d": 1.403954873339213
+      "bleu": 0.32236398288320733,
+      "meteor": 0.5605098966737433,
+      "cider_d": 1.2163877988741267
     },
     "delta": {
-      "bleu": 0.344712,
-      "meteor": 0.47969,
-      "cider_d": 1.379992
+      "bleu": 0.322364,
+      "meteor": 0.457303,
+      "cider_d": 1.192425
     }
   }
 }

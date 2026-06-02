@@ -3,7 +3,8 @@
     "model_name": "HuggingFaceTB/SmolVLM-256M-Instruct",
     "prompt": "Describe this medical scene in one concise English sentence.",
     "ranks": [
-      16
+      4,
+      8
     ],
     "target_modules": [
       "q_proj",
@@ -37,17 +38,17 @@
   },
   "rows": [
     {
-      "rank": 16,
-      "lora_alpha": 32,
-      "trainable_params": 5769216,
-      "total_params": 262254144,
+      "rank": 4,
+      "lora_alpha": 8,
+      "trainable_params": 1442304,
+      "total_params": 257927232,
       "full_finetuning_trainable_params": 256484928,
-      "trainable_ratio": 0.021998569448725278,
-      "vs_full_finetuning_ratio": 0.022493391892407805,
-      "vs_full_finetuning_reduction_factor": 44.45750133120341,
-      "vs_full_finetuning_saved_params": 250715712,
-      "vs_full_finetuning_saved_ratio": 0.9775066081075922,
-      "eval_loss": 1.334466814994812,
+      "trainable_ratio": 0.005591902758061622,
+      "vs_full_finetuning_ratio": 0.005623347973101951,
+      "vs_full_finetuning_reduction_factor": 177.83000532481364,
+      "vs_full_finetuning_saved_params": 255042624,
+      "vs_full_finetuning_saved_ratio": 0.9943766520268981,
+      "eval_loss": 1.5670052766799927,
       "caption_scores": {
         "available": true,
         "zero_shot": {
@@ -56,14 +57,45 @@
           "cider_d": 0.023962586154704844
         },
         "fine_tuned": {
-          "bleu": 0.7731798391460166,
-          "meteor": 0.844431529499905,
-          "cider_d": 7.1516781561993765
+          "bleu": 0.32236398288320733,
+          "meteor": 0.5605098966737433,
+          "cider_d": 1.2163877988741267
         },
         "delta": {
-          "bleu": 0.77318,
-          "meteor": 0.741224,
-          "cider_d": 7.127716
+          "bleu": 0.322364,
+          "meteor": 0.457303,
+          "cider_d": 1.192425
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "lora_alpha": 16,
+      "trainable_params": 2884608,
+      "total_params": 259369536,
+      "full_finetuning_trainable_params": 256484928,
+      "trainable_ratio": 0.011121614529163517,
+      "vs_full_finetuning_ratio": 0.011246695946203903,
+      "vs_full_finetuning_reduction_factor": 88.91500266240682,
+      "vs_full_finetuning_saved_params": 253600320,
+      "vs_full_finetuning_saved_ratio": 0.9887533040537961,
+      "eval_loss": 1.3629817962646484,
+      "caption_scores": {
+        "available": true,
+        "zero_shot": {
+          "bleu": 0.0,
+          "meteor": 0.1032071688734147,
+          "cider_d": 0.023962586154704844
+        },
+        "fine_tuned": {
+          "bleu": 0.6130337721802498,
+          "meteor": 0.7452492691073707,
+          "cider_d": 4.909108467776318
+        },
+        "delta": {
+          "bleu": 0.613034,
+          "meteor": 0.642042,
+          "cider_d": 4.885146
         }
       }
     }
@@ -77,17 +109,17 @@
     "lora_results": [
       {
         "summary": {
-          "rank": 16,
-          "lora_alpha": 32,
-          "trainable_params": 5769216,
-          "total_params": 262254144,
+          "rank": 4,
+          "lora_alpha": 8,
+          "trainable_params": 1442304,
+          "total_params": 257927232,
           "full_finetuning_trainable_params": 256484928,
-          "trainable_ratio": 0.021998569448725278,
-          "vs_full_finetuning_ratio": 0.022493391892407805,
-          "vs_full_finetuning_reduction_factor": 44.45750133120341,
-          "vs_full_finetuning_saved_params": 250715712,
-          "vs_full_finetuning_saved_ratio": 0.9775066081075922,
-          "eval_loss": 1.334466814994812,
+          "trainable_ratio": 0.005591902758061622,
+          "vs_full_finetuning_ratio": 0.005623347973101951,
+          "vs_full_finetuning_reduction_factor": 177.83000532481364,
+          "vs_full_finetuning_saved_params": 255042624,
+          "vs_full_finetuning_saved_ratio": 0.9943766520268981,
+          "eval_loss": 1.5670052766799927,
           "caption_scores": {
             "available": true,
             "zero_shot": {
@@ -96,14 +128,14 @@
               "cider_d": 0.023962586154704844
             },
             "fine_tuned": {
-              "bleu": 0.7731798391460166,
-              "meteor": 0.844431529499905,
-              "cider_d": 7.1516781561993765
+              "bleu": 0.32236398288320733,
+              "meteor": 0.5605098966737433,
+              "cider_d": 1.2163877988741267
             },
             "delta": {
-              "bleu": 0.77318,
-              "meteor": 0.741224,
-              "cider_d": 7.127716
+              "bleu": 0.322364,
+              "meteor": 0.457303,
+              "cider_d": 1.192425
             }
           }
         },
@@ -117,7 +149,128 @@
                 "A nurse administering a subcutaneous injection into the abdominal area of a patient in a clinical setting"
               ],
               "zero_shot": "Two women in blue uniforms are preparing to give birth.",
-              "fine_tuned": "A nurse administering a subcutaneous injection into the abdominal area of a patient in a clinical setting"
+              "fine_tuned": "A nurse administering an injection into the abdomen of a patient in a clinical setting"
+            },
+            {
+              "image_name": "subcutaneous_injection_25DJ1kvaN60_ann3.jpg",
+              "image_path": "dataset/selected_images/subcutaneous_injection_25DJ1kvaN60_ann3.jpg",
+              "ground_truth": "A nurse preparing a syringe for a subcutaneous injection in a clinical setting",
+              "references": [
+                "A nurse preparing a syringe for a subcutaneous injection in a clinical setting"
+              ],
+              "zero_shot": "Two women in blue uniforms are giving a medical test to a patient.",
+              "fine_tuned": "A nurse in a nurse's uniform preparing to administer a subcutaneous injection into a subcutaneous subcutaneous injection site in a clinical setting"
+            },
+            {
+              "image_name": "subcutaneous_injection_25DJ1kvaN60_ann4.jpg",
+              "image_path": "dataset/selected_images/subcutaneous_injection_25DJ1kvaN60_ann4.jpg",
+              "ground_truth": "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting",
+              "references": [
+                "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting"
+              ],
+              "zero_shot": "Two women in green uniforms are holding something in their hands.",
+              "fine_tuned": "A nurse preparing a syringe for administering an injection into the abdomen of a patient in a clinical setting"
+            },
+            {
+              "image_name": "subcutaneous_injection_968cu9kFRPM_ann1.jpg",
+              "image_path": "dataset/selected_images/subcutaneous_injection_968cu9kFRPM_ann1.jpg",
+              "ground_truth": "A nurse drawing medication into a syringe for a subcutaneous injection in a hospital ward",
+              "references": [
+                "A nurse drawing medication into a syringe for a subcutaneous injection in a hospital ward"
+              ],
+              "zero_shot": "A person is holding a paper with some text on it.",
+              "fine_tuned": "A nurse administering an injection into a patient's arm with a syringe in a hospital setting"
+            }
+          ],
+          "metrics": {
+            "zero_shot": {
+              "bleu": 0.0,
+              "meteor": 0.1032071688734147,
+              "cider_d": 0.023962586154704844
+            },
+            "fine_tuned": {
+              "bleu": 0.32236398288320733,
+              "meteor": 0.5605098966737433,
+              "cider_d": 1.2163877988741267
+            },
+            "delta": {
+              "bleu": 0.322364,
+              "meteor": 0.457303,
+              "cider_d": 1.192425
+            }
+          }
+        },
+        "caption_scores": {
+          "available": true,
+          "zero_shot": {
+            "bleu": 0.0,
+            "meteor": 0.1032071688734147,
+            "cider_d": 0.023962586154704844
+          },
+          "fine_tuned": {
+            "bleu": 0.32236398288320733,
+            "meteor": 0.5605098966737433,
+            "cider_d": 1.2163877988741267
+          },
+          "delta": {
+            "bleu": 0.322364,
+            "meteor": 0.457303,
+            "cider_d": 1.192425
+          }
+        },
+        "eval_metrics": {
+          "eval_loss": 1.5670052766799927,
+          "eval_runtime": 20.0042,
+          "eval_samples_per_second": 0.35,
+          "eval_steps_per_second": 0.35,
+          "epoch": 10.0
+        },
+        "full_finetuning_trainable_params": 256484928,
+        "rank_output_dir": "model/nurvid-lora-finetuning/rank-4"
+      },
+      {
+        "summary": {
+          "rank": 8,
+          "lora_alpha": 16,
+          "trainable_params": 2884608,
+          "total_params": 259369536,
+          "full_finetuning_trainable_params": 256484928,
+          "trainable_ratio": 0.011121614529163517,
+          "vs_full_finetuning_ratio": 0.011246695946203903,
+          "vs_full_finetuning_reduction_factor": 88.91500266240682,
+          "vs_full_finetuning_saved_params": 253600320,
+          "vs_full_finetuning_saved_ratio": 0.9887533040537961,
+          "eval_loss": 1.3629817962646484,
+          "caption_scores": {
+            "available": true,
+            "zero_shot": {
+              "bleu": 0.0,
+              "meteor": 0.1032071688734147,
+              "cider_d": 0.023962586154704844
+            },
+            "fine_tuned": {
+              "bleu": 0.6130337721802498,
+              "meteor": 0.7452492691073707,
+              "cider_d": 4.909108467776318
+            },
+            "delta": {
+              "bleu": 0.613034,
+              "meteor": 0.642042,
+              "cider_d": 4.885146
+            }
+          }
+        },
+        "before_after_report": {
+          "samples": [
+            {
+              "image_name": "subcutaneous_injection_25DJ1kvaN60_ann2.jpg",
+              "image_path": "dataset/selected_images/subcutaneous_injection_25DJ1kvaN60_ann2.jpg",
+              "ground_truth": "A nurse administering a subcutaneous injection into the abdominal area of a patient in a clinical setting",
+              "references": [
+                "A nurse administering a subcutaneous injection into the abdominal area of a patient in a clinical setting"
+              ],
+              "zero_shot": "Two women in blue uniforms are preparing to give birth.",
+              "fine_tuned": "A nurse administering an intramuscular injection into the abdominal area of a patient in a clinical setting"
             },
             {
               "image_name": "subcutaneous_injection_25DJ1kvaN60_ann3.jpg",
@@ -137,7 +290,7 @@
                 "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting"
               ],
               "zero_shot": "Two women in green uniforms are holding something in their hands.",
-              "fine_tuned": "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting"
+              "fine_tuned": "A nurse preparing a syringe for a subcutaneous injection in a clinical setting"
             },
             {
               "image_name": "subcutaneous_injection_968cu9kFRPM_ann1.jpg",
@@ -147,7 +300,7 @@
                 "A nurse drawing medication into a syringe for a subcutaneous injection in a hospital ward"
               ],
               "zero_shot": "A person is holding a paper with some text on it.",
-              "fine_tuned": "A nurse marking a syringe with a needle and syringe solution in a clinical setting"
+              "fine_tuned": "A nurse preparing to administer an injection into the subcutaneous area of a patient"
             }
           ],
           "metrics": {
@@ -157,14 +310,14 @@
               "cider_d": 0.023962586154704844
             },
             "fine_tuned": {
-              "bleu": 0.7731798391460166,
-              "meteor": 0.844431529499905,
-              "cider_d": 7.1516781561993765
+              "bleu": 0.6130337721802498,
+              "meteor": 0.7452492691073707,
+              "cider_d": 4.909108467776318
             },
             "delta": {
-              "bleu": 0.77318,
-              "meteor": 0.741224,
-              "cider_d": 7.127716
+              "bleu": 0.613034,
+              "meteor": 0.642042,
+              "cider_d": 4.885146
             }
           }
         },
@@ -176,25 +329,25 @@
             "cider_d": 0.023962586154704844
           },
           "fine_tuned": {
-            "bleu": 0.7731798391460166,
-            "meteor": 0.844431529499905,
-            "cider_d": 7.1516781561993765
+            "bleu": 0.6130337721802498,
+            "meteor": 0.7452492691073707,
+            "cider_d": 4.909108467776318
           },
           "delta": {
-            "bleu": 0.77318,
-            "meteor": 0.741224,
-            "cider_d": 7.127716
+            "bleu": 0.613034,
+            "meteor": 0.642042,
+            "cider_d": 4.885146
           }
         },
         "eval_metrics": {
-          "eval_loss": 1.334466814994812,
-          "eval_runtime": 19.8969,
+          "eval_loss": 1.3629817962646484,
+          "eval_runtime": 19.8588,
           "eval_samples_per_second": 0.352,
           "eval_steps_per_second": 0.352,
           "epoch": 10.0
         },
         "full_finetuning_trainable_params": 256484928,
-        "rank_output_dir": "model/nurvid-lora-finetuning/rank-16"
+        "rank_output_dir": "model/nurvid-lora-finetuning/rank-8"
       }
     ]
   }

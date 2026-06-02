@@ -5,3 +5,11 @@ ResNet/rdata/
 ResNet/cifar100data/
 ResNet/models/
 VLM/dataset/original_video/*.mp4
+
+# VLM LoRA fine-tuning 산출물
+VLM/model/
+VLM/dataset/selected_images/
+VLM/dataset/original_video/
+
+# checkpoint
+**/checkpoint-*/
