@@ -1,61 +1,61 @@
 {
   "samples": [
     {
-      "image_name": "F88btEbzdw0_op5_action8_1_16.53_33.90_middle.jpg",
-      "image_path": "dataset/selected_images/F88btEbzdw0_op5_action8_1_16.53_33.90_middle.jpg",
-      "ground_truth": "A nurse performing a medical action in a hospital setting.",
+      "image_name": "subcutaneous_injection_25DJ1kvaN60_ann2.jpg",
+      "image_path": "dataset/selected_images/subcutaneous_injection_25DJ1kvaN60_ann2.jpg",
+      "ground_truth": "A nurse administering a subcutaneous injection into the abdominal area of a patient in a clinical setting",
       "references": [
-        "A nurse performing a medical action in a hospital setting."
+        "A nurse administering a subcutaneous injection into the abdominal area of a patient in a clinical setting"
       ],
-      "zero_shot": "This image consists of two persons, one of them is holding a syringe in his hand and the other one is holding a",
-      "fine_tuned": "This image consists of two persons, one of them is holding a syringe in his hand and the other one is holding a"
+      "zero_shot": "Two women in blue uniforms are preparing to give birth.",
+      "fine_tuned": "A nurse administering an injection into the abdomen of a patient in a clinical setting"
     },
     {
-      "image_name": "Peyw-eKZJOI_op26_action34_3_179.18_189.29_middle.jpg",
-      "image_path": "dataset/selected_images/Peyw-eKZJOI_op26_action34_3_179.18_189.29_middle.jpg",
-      "ground_truth": "A nurse performing a medical action in a hospital setting.",
+      "image_name": "subcutaneous_injection_25DJ1kvaN60_ann3.jpg",
+      "image_path": "dataset/selected_images/subcutaneous_injection_25DJ1kvaN60_ann3.jpg",
+      "ground_truth": "A nurse preparing a syringe for a subcutaneous injection in a clinical setting",
       "references": [
-        "A nurse performing a medical action in a hospital setting."
+        "A nurse preparing a syringe for a subcutaneous injection in a clinical setting"
       ],
-      "zero_shot": "A woman is lying on the bed and holding a bowl with her hands.",
-      "fine_tuned": "A woman is lying on the bed and holding a bowl with her hands."
+      "zero_shot": "Two women in blue uniforms are giving a medical test to a patient.",
+      "fine_tuned": "A nurse in a nurse's uniform preparing to administer a subcutaneous injection into a patient's thigh in a clinical setting"
     },
     {
-      "image_name": "Peyw-eKZJOI_op26_action41_2_157.40_173.20_middle.jpg",
-      "image_path": "dataset/selected_images/Peyw-eKZJOI_op26_action41_2_157.40_173.20_middle.jpg",
-      "ground_truth": "A nurse performing a medical action in a hospital setting.",
+      "image_name": "subcutaneous_injection_25DJ1kvaN60_ann4.jpg",
+      "image_path": "dataset/selected_images/subcutaneous_injection_25DJ1kvaN60_ann4.jpg",
+      "ground_truth": "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting",
       "references": [
-        "A nurse performing a medical action in a hospital setting."
+        "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting"
       ],
-      "zero_shot": "In this image, we can see a person lying on the bed and a person is standing beside the bed. We can",
-      "fine_tuned": "In this image, we can see a person lying on the bed and a person is standing beside the bed. We can"
+      "zero_shot": "Two women in green uniforms are holding something in their hands.",
+      "fine_tuned": "A nurse preparing a syringe for a medication in a clinical setting"
     },
     {
-      "image_name": "Peyw-eKZJOI_op26_action59_1_134.86_147.56_middle.jpg",
-      "image_path": "dataset/selected_images/Peyw-eKZJOI_op26_action59_1_134.86_147.56_middle.jpg",
-      "ground_truth": "A nurse performing a medical action in a hospital setting.",
+      "image_name": "subcutaneous_injection_968cu9kFRPM_ann1.jpg",
+      "image_path": "dataset/selected_images/subcutaneous_injection_968cu9kFRPM_ann1.jpg",
+      "ground_truth": "A nurse drawing medication into a syringe for a subcutaneous injection in a hospital ward",
       "references": [
-        "A nurse performing a medical action in a hospital setting."
+        "A nurse drawing medication into a syringe for a subcutaneous injection in a hospital ward"
       ],
-      "zero_shot": "A woman is lying on a bed with a bowl in her hand.",
-      "fine_tuned": "A woman is lying on a bed with a bowl in her hand."
+      "zero_shot": "A person is holding a paper with some text on it.",
+      "fine_tuned": "A nurse using a syringe needle to administer a subcutaneous injection into a patient's thigh"
     }
   ],
   "metrics": {
     "zero_shot": {
       "bleu": 0.0,
-      "meteor": 0.14469038105535997,
-      "cider_d": 0.0
+      "meteor": 0.1032071688734147,
+      "cider_d": 0.023962586154704844
     },
     "fine_tuned": {
-      "bleu": 0.0,
-      "meteor": 0.14469038105535997,
-      "cider_d": 0.0
+      "bleu": 0.344712123713348,
+      "meteor": 0.5828972366877522,
+      "cider_d": 1.403954873339213
     },
     "delta": {
-      "bleu": 0.0,
-      "meteor": 0.0,
-      "cider_d": 0.0
+      "bleu": 0.344712,
+      "meteor": 0.47969,
+      "cider_d": 1.379992
     }
   }
 }

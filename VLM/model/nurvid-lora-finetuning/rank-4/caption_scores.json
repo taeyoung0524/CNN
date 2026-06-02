@@ -2,17 +2,17 @@
   "available": true,
   "zero_shot": {
     "bleu": 0.0,
-    "meteor": 0.14469038105535997,
-    "cider_d": 0.0
+    "meteor": 0.1032071688734147,
+    "cider_d": 0.023962586154704844
   },
   "fine_tuned": {
-    "bleu": 0.0,
-    "meteor": 0.14469038105535997,
-    "cider_d": 0.0
+    "bleu": 0.344712123713348,
+    "meteor": 0.5828972366877522,
+    "cider_d": 1.403954873339213
   },
   "delta": {
-    "bleu": 0.0,
-    "meteor": 0.0,
-    "cider_d": 0.0
+    "bleu": 0.344712,
+    "meteor": 0.47969,
+    "cider_d": 1.379992
   }
 }

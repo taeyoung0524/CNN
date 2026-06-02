@@ -1,100 +1,100 @@
 {
   "zero_shot_caption_scores": {
     "bleu": 0.0,
-    "meteor": 0.14469038105535997,
-    "cider_d": 0.0
+    "meteor": 0.1032071688734147,
+    "cider_d": 0.023962586154704844
   },
   "lora_results": [
     {
       "summary": {
-        "rank": 4,
-        "lora_alpha": 8,
-        "trainable_params": 377856,
-        "total_params": 256862784,
+        "rank": 16,
+        "lora_alpha": 32,
+        "trainable_params": 5769216,
+        "total_params": 262254144,
         "full_finetuning_trainable_params": 256484928,
-        "trainable_ratio": 0.0014710422199581859,
-        "vs_full_finetuning_ratio": 0.0014732093731449202,
-        "vs_full_finetuning_reduction_factor": 678.7901422764228,
-        "vs_full_finetuning_saved_params": 256107072,
-        "vs_full_finetuning_saved_ratio": 0.9985267906268551,
-        "eval_loss": 4.151023864746094,
+        "trainable_ratio": 0.021998569448725278,
+        "vs_full_finetuning_ratio": 0.022493391892407805,
+        "vs_full_finetuning_reduction_factor": 44.45750133120341,
+        "vs_full_finetuning_saved_params": 250715712,
+        "vs_full_finetuning_saved_ratio": 0.9775066081075922,
+        "eval_loss": 1.334466814994812,
         "caption_scores": {
           "available": true,
           "zero_shot": {
             "bleu": 0.0,
-            "meteor": 0.14469038105535997,
-            "cider_d": 0.0
+            "meteor": 0.1032071688734147,
+            "cider_d": 0.023962586154704844
           },
           "fine_tuned": {
-            "bleu": 0.0,
-            "meteor": 0.14469038105535997,
-            "cider_d": 0.0
+            "bleu": 0.7731798391460166,
+            "meteor": 0.844431529499905,
+            "cider_d": 7.1516781561993765
           },
           "delta": {
-            "bleu": 0.0,
-            "meteor": 0.0,
-            "cider_d": 0.0
+            "bleu": 0.77318,
+            "meteor": 0.741224,
+            "cider_d": 7.127716
           }
         }
       },
       "before_after_report": {
         "samples": [
           {
-            "image_name": "F88btEbzdw0_op5_action8_1_16.53_33.90_middle.jpg",
-            "image_path": "dataset/selected_images/F88btEbzdw0_op5_action8_1_16.53_33.90_middle.jpg",
-            "ground_truth": "A nurse performing a medical action in a hospital setting.",
+            "image_name": "subcutaneous_injection_25DJ1kvaN60_ann2.jpg",
+            "image_path": "dataset/selected_images/subcutaneous_injection_25DJ1kvaN60_ann2.jpg",
+            "ground_truth": "A nurse administering a subcutaneous injection into the abdominal area of a patient in a clinical setting",
             "references": [
-              "A nurse performing a medical action in a hospital setting."
+              "A nurse administering a subcutaneous injection into the abdominal area of a patient in a clinical setting"
             ],
-            "zero_shot": "This image consists of two persons, one of them is holding a syringe in his hand and the other one is holding a",
-            "fine_tuned": "This image consists of two persons, one of them is holding a syringe in his hand and the other one is holding a"
+            "zero_shot": "Two women in blue uniforms are preparing to give birth.",
+            "fine_tuned": "A nurse administering a subcutaneous injection into the abdominal area of a patient in a clinical setting"
           },
           {
-            "image_name": "Peyw-eKZJOI_op26_action34_3_179.18_189.29_middle.jpg",
-            "image_path": "dataset/selected_images/Peyw-eKZJOI_op26_action34_3_179.18_189.29_middle.jpg",
-            "ground_truth": "A nurse performing a medical action in a hospital setting.",
+            "image_name": "subcutaneous_injection_25DJ1kvaN60_ann3.jpg",
+            "image_path": "dataset/selected_images/subcutaneous_injection_25DJ1kvaN60_ann3.jpg",
+            "ground_truth": "A nurse preparing a syringe for a subcutaneous injection in a clinical setting",
             "references": [
-              "A nurse performing a medical action in a hospital setting."
+              "A nurse preparing a syringe for a subcutaneous injection in a clinical setting"
             ],
-            "zero_shot": "A woman is lying on the bed and holding a bowl with her hands.",
-            "fine_tuned": "A woman is lying on the bed and holding a bowl with her hands."
+            "zero_shot": "Two women in blue uniforms are giving a medical test to a patient.",
+            "fine_tuned": "A nurse preparing a syringe for a subcutaneous injection in a clinical setting"
           },
           {
-            "image_name": "Peyw-eKZJOI_op26_action41_2_157.40_173.20_middle.jpg",
-            "image_path": "dataset/selected_images/Peyw-eKZJOI_op26_action41_2_157.40_173.20_middle.jpg",
-            "ground_truth": "A nurse performing a medical action in a hospital setting.",
+            "image_name": "subcutaneous_injection_25DJ1kvaN60_ann4.jpg",
+            "image_path": "dataset/selected_images/subcutaneous_injection_25DJ1kvaN60_ann4.jpg",
+            "ground_truth": "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting",
             "references": [
-              "A nurse performing a medical action in a hospital setting."
+              "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting"
             ],
-            "zero_shot": "In this image, we can see a person lying on the bed and a person is standing beside the bed. We can",
-            "fine_tuned": "In this image, we can see a person lying on the bed and a person is standing beside the bed. We can"
+            "zero_shot": "Two women in green uniforms are holding something in their hands.",
+            "fine_tuned": "A nurse preparing a syringe with medication for a subcutaneous injection in a clinical setting"
           },
           {
-            "image_name": "Peyw-eKZJOI_op26_action59_1_134.86_147.56_middle.jpg",
-            "image_path": "dataset/selected_images/Peyw-eKZJOI_op26_action59_1_134.86_147.56_middle.jpg",
-            "ground_truth": "A nurse performing a medical action in a hospital setting.",
+            "image_name": "subcutaneous_injection_968cu9kFRPM_ann1.jpg",
+            "image_path": "dataset/selected_images/subcutaneous_injection_968cu9kFRPM_ann1.jpg",
+            "ground_truth": "A nurse drawing medication into a syringe for a subcutaneous injection in a hospital ward",
             "references": [
-              "A nurse performing a medical action in a hospital setting."
+              "A nurse drawing medication into a syringe for a subcutaneous injection in a hospital ward"
             ],
-            "zero_shot": "A woman is lying on a bed with a bowl in her hand.",
-            "fine_tuned": "A woman is lying on a bed with a bowl in her hand."
+            "zero_shot": "A person is holding a paper with some text on it.",
+            "fine_tuned": "A nurse marking a syringe with a needle and syringe solution in a clinical setting"
           }
         ],
         "metrics": {
           "zero_shot": {
             "bleu": 0.0,
-            "meteor": 0.14469038105535997,
-            "cider_d": 0.0
+            "meteor": 0.1032071688734147,
+            "cider_d": 0.023962586154704844
           },
           "fine_tuned": {
-            "bleu": 0.0,
-            "meteor": 0.14469038105535997,
-            "cider_d": 0.0
+            "bleu": 0.7731798391460166,
+            "meteor": 0.844431529499905,
+            "cider_d": 7.1516781561993765
           },
           "delta": {
-            "bleu": 0.0,
-            "meteor": 0.0,
-            "cider_d": 0.0
+            "bleu": 0.77318,
+            "meteor": 0.741224,
+            "cider_d": 7.127716
           }
         }
       },
@@ -102,29 +102,29 @@
         "available": true,
         "zero_shot": {
           "bleu": 0.0,
-          "meteor": 0.14469038105535997,
-          "cider_d": 0.0
+          "meteor": 0.1032071688734147,
+          "cider_d": 0.023962586154704844
         },
         "fine_tuned": {
-          "bleu": 0.0,
-          "meteor": 0.14469038105535997,
-          "cider_d": 0.0
+          "bleu": 0.7731798391460166,
+          "meteor": 0.844431529499905,
+          "cider_d": 7.1516781561993765
         },
         "delta": {
-          "bleu": 0.0,
-          "meteor": 0.0,
-          "cider_d": 0.0
+          "bleu": 0.77318,
+          "meteor": 0.741224,
+          "cider_d": 7.127716
         }
       },
       "eval_metrics": {
-        "eval_loss": 4.151023864746094,
-        "eval_runtime": 5.6769,
+        "eval_loss": 1.334466814994812,
+        "eval_runtime": 19.8969,
         "eval_samples_per_second": 0.352,
         "eval_steps_per_second": 0.352,
-        "epoch": 1.0
+        "epoch": 10.0
       },
       "full_finetuning_trainable_params": 256484928,
-      "rank_output_dir": "model/nurvid-lora-finetuning/rank-4"
+      "rank_output_dir": "model/nurvid-lora-finetuning/rank-16"
     }
   ]
 }
